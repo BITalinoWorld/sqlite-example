@@ -40,12 +40,14 @@ Example:
 Configurations:
 
 Id | MacAddress | SamplingFreq | InitTime | timeCycle | acqChannels | channelSize
+--- | --- | --- | --- | --- | --- | ---
 1 | '98:D3:31:B1:84:2C' | 1000 | '11/10/14 17:22:03' | 1 | '[0, 1, 2, 3, 4, 5]' | 6
 2 | '98:D3:31:B1:84:2C' | 1000 | '11/10/14 17:47:27' | 1 | '[0]' | 1
 
 Data:
 
 Configuration | Time | Channel0 | Channel1 | Channel2 | Channel3 | Channel4 | Channel5 
+--- | --- | --- | --- | --- | --- | --- | ---
 1 | 0 | 482.88 | 0.0 | 506.351 | 277.877 | 0.0 | 38.0
 1 | 1 | 480.467 | 0.0, 506.643 | 277.875 | 0.0 | 38.0
 1 | 2 | 480.947 | 0.0, 511.022 | 277.906 | 0.0 | 38.0
