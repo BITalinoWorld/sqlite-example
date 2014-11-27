@@ -4,7 +4,7 @@ import time
 import numpy
 
 # Database
-database = "GadgetMan.db"
+database = "database.db"
 
 # Device MacAddress
 macAddress = "98:D3:31:B1:84:2C"
@@ -61,6 +61,7 @@ device.stop()
 device.close()
 
 # UnComment to Print Tables
+
 """
 print ""
 print "Configurations:"
