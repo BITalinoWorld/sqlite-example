@@ -65,13 +65,17 @@ Data:
 
 To restart the database on script run, uncomment the following code (this will delete all the data):
 
+```
 # Restart Database
 # cursor.execute("Drop table Configuration")
 # cursor.execute("Drop table Data")
+```
 
 To print all the tables on script run, uncomment the code under:
 
+```
 # UnComment to Print Tables
+```
 
 This script requires python with the following dependencies:
 
